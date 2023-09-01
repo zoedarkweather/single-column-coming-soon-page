@@ -41,6 +41,7 @@ body {
 h1 {
     font-size: 2rem;
     font-weight: var(--font-wt-headings); 
+    margin-bottom: 1rem;
 }
 
 p {
@@ -97,8 +98,14 @@ main {
 .email-input {
     width: 100%;
     height: 2.5rem;
+    padding: 1rem;
     border: 1px solid var(--pale-blue);
+    color: var(--very-dark-blue);
     border-radius: 2rem;
+}
+
+::placeholder {
+    color: var(--gray)
 }
 
 .email-input.error {

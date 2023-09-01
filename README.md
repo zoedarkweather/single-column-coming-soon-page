@@ -61,6 +61,7 @@ Keep practicing with CSS and JavaScript. I also am very interested in doing more
 
 - [MDN - Client Side Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation) - This helped me with the code form validation code, especially with how to stop the default behavior.
 
+- [5-ways-to-make-labels-accessible-for-input-controls](https://medium.com/codex/5-ways-to-make-labels-accessible-for-input-controls-and-3-ways-not-to-55ecb2a2e80a) - This article had some good suggestions on how to add a label to a form that would not be shown visually, but would still be read out by a screereader.
 
 ## Author
 
