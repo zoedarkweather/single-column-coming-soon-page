@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://single-column-coming-soon-page-one.vercel.app/](https://single-column-coming-soon-page-one.vercel.app/)
+- Live Site URL: [https://github.com/zoedarkweather/single-column-coming-soon-page](https://github.com/zoedarkweather/single-column-coming-soon-page)
 
 ## My process
 
@@ -50,7 +50,7 @@ Users should be able to:
 - JavaScript
 
 ### What I learned
-This was a great opportunity to practiced what I have been learning in the Webforms module of the MDN developer coursework. I learned how to stop the default validation behvior and apply custom error messages, using the novalidate attribute, and how to prevent the form from submitting using preventDefault(). I also learned that putting a "aria-live = 'polite'" on custom error messages ensures the messages will be read to screenreader users.
+This was a great opportunity to practice what I have been learning in the Webforms module of the MDN developer coursework. I learned how to stop the default validation behvior and apply custom error messages, using the novalidate attribute, and how to prevent the form from submitting using preventDefault(). I also learned that putting "aria-live = 'polite'" on custom error messages ensures the messages will be read to screenreader users.
 
 
 ### Continued development
