@@ -54,7 +54,7 @@ This was a great opportunity to practice what I have been learning in the Webfor
 
 9/28 Updates: Improved accessibility by adding Aria labels to the social media links, Aria-required attribute to the email input, and changing the error message to "Assertive" as I've since learned that this is actually the correct labeling for error messages. I also tested it with NVDA. I have issues with the accessibility of the design - color contrast is not great, and the lack of a label for the email is maybe not great for all users. I hid a label to be read by screenreaders but that only helps screenreader users.
 
-Other updates included minor tweaks to sizing and spacing to better match the design.
+Other updates included minor tweaks to sizing and spacing to better match the design. I also changed the JS to use classlist instead of get/set attribute to add/remove classes as that seemed a little cleaner.
 
 ### Continued development
 Keep practicing with CSS and JavaScript. I also am very interested in doing more of a deep dive into accessibility issues and learning as much as I can about how to improve in that area.
