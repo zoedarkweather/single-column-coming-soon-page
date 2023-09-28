@@ -36,8 +36,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://single-column-coming-soon-page-one.vercel.app/](https://single-column-coming-soon-page-one.vercel.app/)
-- Live Site URL: [https://github.com/zoedarkweather/single-column-coming-soon-page](https://github.com/zoedarkweather/single-column-coming-soon-page)
+- Solution URL: [https://github.com/zoedarkweather/single-column-coming-soon-page](https://github.com/zoedarkweather/single-column-coming-soon-page)
+
+- Live Site URL: [https://single-column-coming-soon-page-one.vercel.app/](https://single-column-coming-soon-page-one.vercel.app/)
 
 ## My process
 
