@@ -8,39 +8,36 @@
     <script src="ping.js" defer></script>
     <title>Frontend Mentor | Ping coming soon page</title>
 </head>
-<body>
-    
-        <main>        
-            <img class="logo" src="./images/logo.svg" alt="logo">
-
-            <div class="main-text">
+<body>    
+    <div class="wrapper">
+        <main>
+            <img class="logo" src="./images/logo.svg" alt="Ping logo">
+            <hgroup>
                 <h1><span class="gray-heading">We are launching</span> soon!</h1>
-                <p>Subscribe and get notified</p>
-            </div>
-            
-            <form novalidate action="./index.html" method="get" class="email-form" name="email-form" id="email-form">  
+                <p id="email-label" >Subscribe and get notified</p>
+            </hgroup>
+        
+            <form novalidate class="email-form" name="email-form" id="email-form">
                     <label for="email-input" class="screenreader-only">Email:</label>
-                    <input type="email" class="email-input" name="email-input" id="email-input" placeholder="Your email address..." required>
-                    <p class="error-msg" aria-live="polite"></p>                   
-                    <button type="submit" class="submit" name="submit" id="submit">Notify Me</button>             
+                    <input type="email" class="email-input" name="email-input" id="email-input" placeholder="Your email address..." aria-required="true" required>
+                    <p class="error-msg" aria-live="assertive"></p>
+                    <button type="submit" class="submit" name="submit" id="submit">Notify Me</button>
             </form>
-
-            <img class="dashboard-img" src="./images/illustration-dashboard.png" alt="Illustration of the Ping dashboard">        
+            <img class="dashboard-img" src="./images/illustration-dashboard.png" alt="Illustration of the Ping dashboard">
         </main>
-
         <footer>
-         
             <div class="social-container">
-                <a href="#"><ion-icon name="logo-twitter" alt="twitter"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-facebook" alt="facebook"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-instagram" alt="instagram"></ion-icon></a>
+                <a aria-label="link to Facebook" href="#"><ion-icon name="logo-facebook" alt="facebook"></ion-icon></a>
+                <a aria-label="link to Twitter" href="#"><ion-icon name="logo-twitter" alt="twitter"></ion-icon></a>
+                <a aria-label="link to Instagram" href="#"><ion-icon name="logo-instagram" alt="instagram"></ion-icon></a>
             </div>
             <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
             <p class="attribution">
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
                 Coded by <a href="https://github.com/zoedarkweather">Jennifer Souza</a>.
-              </p>
+                </p>
         </footer>
+    </div>
     
 
       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

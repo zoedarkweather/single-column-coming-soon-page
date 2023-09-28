@@ -1,10 +1,10 @@
-const form = document.querySelector("form");
+const form = document.querySelector("#email-form");
 const email = document.querySelector("#email-input");
 const emailError = document.querySelector(".error-msg");
 
 email.addEventListener("focus", () => {
     emailError.textContent = "";
-    email.setAttribute("class", "email-input")        
+    email.classList.remove("error");
     
 });
 
@@ -21,6 +21,6 @@ function showError() {
     } else if(email.validity.typeMismatch) {
         emailError.textContent = "Please provide a valid email address";
     }
-
-    email.setAttribute("class", "email-input error")
+    
+    email.classList.add("error");
 }
